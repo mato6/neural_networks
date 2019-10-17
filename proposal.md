@@ -8,7 +8,7 @@ V posledných rokoch bol zaznamenaný vysoký nárast frekvencie výskytu uráž
 
 ## Súvisiace práce v danej oblasti
 
-	Na základe prečítaných prameňov sme zisliti, že na detekciu urážok v texte sa dajú použiť napríklad viac-vrstvový perceptrón, pri ktorom ako aktivačná funckia bola použitá ReLu a back-propagation pre trénovanie.
+  Na základe prečítaných prameňov sme zisliti, že na detekciu urážok v texte sa dajú použiť napríklad viac-vrstvový perceptrón, pri ktorom ako aktivačná funckia bola použitá ReLu a back-propagation pre trénovanie.
 Použitá tiež môže byť 1D konvolučná neurónová sieť. Zostava: 4 konvolučné vrstvy s výstupom o veľkosti 128 a kernel veľkosť 5, potom Max Pooling, ďalej 3 konvolučné vrstvy s výstupom veľkosti 128 a kernel veľkostou 5 a nakoniec Average Pooling. 
 Ako ďalší príklad uvádzame LSTM (Long Short Term Memory). Je to typ RNN siete, ktorá je schopná učiť sa dlhotrvajúce vzťahy. Použitá bola jedna vrstva s 128 jednotkami LSTM. MLP malo najlepší výsledok vzhľadom na F1 score. V práci ďalej uvádzajú ďalšie
 metódy trénovania, ktoré zlepšujú výkonnosť LSTM, ktoré je schopné brať do úvahy celé vety. 
