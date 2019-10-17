@@ -14,7 +14,7 @@ Ako ďalší príklad uvádzame LSTM (Long Short Term Memory). Je to typ RNN sie
 metódy trénovania, ktoré zlepšujú výkonnosť LSTM, ktoré je schopné brať do úvahy celé vety. 
 	
 	
-##Dataset
+## Dataset
   Dataset k našemu projektu sme našli ans tránke kaggle. Obsahuje trénovací aj validačný dataset s komentármi, ktoré sú útočné alebo nie. V trénovacom datasete sú jednotlivé komentáre označené či obsahujú urážlivé slovo/ urážku ale nie. Jeden riadok
 datasetu obsahuje boolean hodnotu, či v komentári je urážka alebo nie, dátum komentáru a samotný komentár. Trénovací dataset obsahuje 3945 riadkov a testovací dataset 2233 riadkov. K testovaciemu datasetu máme zhodný dataset, ktorý obsahuje aj boolean	hodnoty či v komentári je urážka alebo nie. 
 
