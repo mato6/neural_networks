@@ -10,15 +10,14 @@ V posledných rokoch bol zaznamenaný vysoký nárast frekvencie výskytu uráž
 
   Na základe prečítaných prameňov sme zisliti, že na detekciu urážok v texte sa dajú použiť napríklad viac-vrstvový perceptrón, pri ktorom ako aktivačná funckia bola použitá ReLu a back-propagation pre trénovanie.
 Použitá tiež môže byť 1D konvolučná neurónová sieť. Zostava: 4 konvolučné vrstvy s výstupom o veľkosti 128 a kernel veľkosť 5, potom Max Pooling, ďalej 3 konvolučné vrstvy s výstupom veľkosti 128 a kernel veľkostou 5 a nakoniec Average Pooling. 
-Ako ďalší príklad uvádzame LSTM (Long Short Term Memory). Je to typ RNN siete, ktorá je schopná učiť sa dlhotrvajúce vzťahy. Použitá bola jedna vrstva s 128 jednotkami LSTM. MLP malo najlepší výsledok vzhľadom na F1 score. V práci ďalej uvádzajú ďalšie
+Ako ďalší príklad uvádzame LSTM (Long Short Term Memory). Je to typ RNN siete, ktorá je schopná učiť sa dlhotrvajúce vzťahy. Použitá bola jedna vrstva s 128 jednotkami LSTM. MLP malo najlepší výsledok vzhľadom na F1 score. Autori v práci ďalej uvádzajú ďalšie
 metódy trénovania, ktoré zlepšujú výkonnosť LSTM, ktoré je schopné brať do úvahy celé vety. 
-	
+
+// Zdroj http://cs229.stanford.edu/proj2017/final-reports/5242067.pdf
 	
 ## Dataset
   Dataset k našemu projektu sme našli ans tránke kaggle. Obsahuje trénovací aj validačný dataset s komentármi, ktoré sú útočné alebo nie. V trénovacom datasete sú jednotlivé komentáre označené či obsahujú urážlivé slovo/ urážku ale nie. Jeden riadok
 datasetu obsahuje boolean hodnotu, či v komentári je urážka alebo nie, dátum komentáru a samotný komentár. Trénovací dataset obsahuje 3945 riadkov a testovací dataset 2233 riadkov. K testovaciemu datasetu máme zhodný dataset, ktorý obsahuje aj boolean	hodnoty či v komentári je urážka alebo nie. 
-
-// Zdroj http://cs229.stanford.edu/proj2017/final-reports/5242067.pdf
 
 ## High-Level Solution Proposal
 
