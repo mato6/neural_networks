@@ -1,6 +1,6 @@
 # Návrh projektu  
-**Predmet:** Neurónové siete
-**Autori:** Andrej Gáfrik, Martin Grega
+**Predmet:** Neurónové siete\
+**Autori:** Andrej Gáfrik, Martin Grega\
 **Téma:** Detekcia urážok v komentároch v anglickom jazyku
 
 ## Motivácia
