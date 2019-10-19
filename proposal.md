@@ -16,8 +16,8 @@ metódy trénovania, ktoré zlepšujú výkonnosť LSTM, ktoré je schopné bra�
 // Zdroj http://cs229.stanford.edu/proj2017/final-reports/5242067.pdf
 	
 ## Dataset
-  Dataset k našemu projektu sme našli na stránke kaggle. Obsahuje trénovací aj validačný dataset s komentármi, ktoré sú útočné alebo nie. V trénovacom datasete sú jednotlivé komentáre označené či obsahujú urážlivé slovo/ urážku ale nie. Jeden riadok
-datasetu obsahuje boolean hodnotu, či v komentári je urážka alebo nie, dátum komentáru a samotný komentár. Trénovací dataset obsahuje 3945 riadkov a testovací dataset 2233 riadkov. K testovaciemu datasetu máme zhodný dataset, ktorý obsahuje aj boolean	hodnoty či v komentári je urážka alebo nie. 
+  Dataset k našemu projektu sme našli na stránke kaggle. Obsahuje trénovací aj validačný dataset s komentármi, ktoré sú útočné alebo nie. V trénovacom datasete sú jednotlivé komentáre označené či obsahujú urážlivé slovo/ urážku alebo nie. Jeden riadok
+datasetu obsahuje boolean hodnotu, či v komentári je urážka alebo nie, dátum komentáru a samotný komentár. Trénovací dataset obsahuje 3945 riadkov a testovací dataset 2233 riadkov. K testovaciemu datasetu máme zhodný dataset, ktorý obsahuje aj riešenie či v komentári je urážka alebo nie. 
 
 ## High-Level Solution Proposal
 
