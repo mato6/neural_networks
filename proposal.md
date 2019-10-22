@@ -19,6 +19,8 @@ metódy trénovania, ktoré zlepšujú výkonnosť LSTM, ktoré je schopné bra�
   Dataset k našemu projektu sme našli na stránke kaggle. Obsahuje trénovací aj validačný dataset s komentármi, ktoré sú útočné alebo nie. V trénovacom datasete sú jednotlivé komentáre označené či obsahujú urážlivé slovo/ urážku alebo nie. Jeden riadok
 datasetu obsahuje boolean hodnotu, či v komentári je urážka alebo nie, dátum komentáru a samotný komentár. Trénovací dataset obsahuje 3945 riadkov a testovací dataset 2233 riadkov. K testovaciemu datasetu máme zhodný dataset, ktorý obsahuje aj riešenie či v komentári je urážka alebo nie. 
 
+// Zdroj https://www.kaggle.com/c/detecting-insults-in-social-commentary/data
+
 ## High-Level Solution Proposal
 
 Riešenie ešte nemáme úplne premyslené. Je pravdepodobné, že sa chytíme nejakého postupu z daného článku.
